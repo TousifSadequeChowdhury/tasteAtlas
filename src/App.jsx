@@ -1,14 +1,14 @@
 import { Routes, Route } from 'react-router-dom';
 
 import './App.css'
-import About from './assets/pages/About';
+import Mainlayout from './assets/Layout/Mainlayout';
 
 function App() {
 
   return (
-<div>
+<div className='max-w-screen-xl mx-auto'>
   <Routes>
-    <Route path="/" element={<About/>}>
+    <Route path="/" element={<Mainlayout/>}>
     </Route>
   </Routes>
 </div>
